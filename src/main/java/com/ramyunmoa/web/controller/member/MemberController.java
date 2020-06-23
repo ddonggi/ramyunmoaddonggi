@@ -62,11 +62,11 @@ public class MemberController {
 		return "popup.uidCheck";
 	}
 	
-	@GetMapping("nickCheck")
-	public String nickCheck() throws ClassNotFoundException, SQLException {
-		
-		return "popup.nickCheck";
-	}
+//	@GetMapping("nickCheck")
+//	public String nickCheck() throws ClassNotFoundException, SQLException {
+//		
+//		return "popup.nickCheck";
+//	}
 
 /*===============================회원 탈퇴===============================*/
 	@GetMapping("change-pwd-check")
