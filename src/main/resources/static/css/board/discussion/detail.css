@@ -1,0 +1,509 @@
+/* **************header******************* */
+/* .rm-menu-top {
+  display: flex;
+  align-items: center;
+  background: #8b0000;
+  color: white;
+  font-size: 15px;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+.rm-header li:hover {
+  cursor: pointer;
+}
+
+.rm-menu-top li {
+  padding: 5px 10px;
+  background: #fe4e46;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.rm-menu-top li:first-child {
+  margin-right: auto;
+  font-size: 23px;
+  background-color: #c4001d;
+  border-radius: 0px;
+}
+
+.rm-menu-bottom {
+  display: flex;
+  background: #c4001d;
+  font-size: 15px;
+}
+
+.rm-menu-bottom li {
+  padding: 10px 10px
+}
+
+.rm-menu-bottom li:hover {
+  border-radius: 10px;
+  background: #fe4e46;
+} */
+
+/* -----------리뷰게시판-자세한페이지 ------------*/
+
+/* 자세한페이지 공통 style */
+.detail-margin-top {
+	margin-top: 20px;
+}
+
+/* ******* main ********* */
+/* #main {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+
+} */
+#main .detail {
+	/* border: 1px solid black; */
+	/* display: flex; */
+	align-items: center;
+	background-color: white;
+	margin-top: 50px;
+	padding: 10px;
+	border: 1px solid #DEE1E4;
+}
+
+.detail .title {
+	/* background-color: rgb(236, 159, 159); */
+	/* text-align: center; */
+	/* font-weight: 700; */
+	font-size: 1.5em;
+}
+
+.mini-title-box {
+	text-align: end;
+}
+
+.mini-title {
+	font-size: 0.8em;
+	font-weight: bold;
+	border: 1px solid #979797;
+	opacity: 0.5;
+	border-radius: 10%;
+	text-align: end;
+	background-color: white;
+}
+
+.mini-title:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #16AE81;
+}
+
+input::placeholder {
+	padding-left: 10px;
+}
+
+.title-text {
+	width: 100%;
+	/* border: 1px solid black; */
+}
+
+.content-box {
+	width: 100%;
+	min-height: 500px;
+	margin-top: 20px;
+	border: 1px solid rgb(169, 169, 169, 0.4);
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	resize: none;
+}
+
+.btn-box {
+	text-align: center;
+}
+
+.btn-text {
+	background-color: #46CFA7;
+	font-size: 1.2em;
+	padding: 0.5em;
+	color: #EBEEF1;
+	margin-top: 20px;
+	border-radius: 10%;
+	/* border: 1px solid ; */
+}
+
+.btn-hover:hover {
+	cursor: pointer;
+	background-color: #16AE81;
+	text-decoration: none;
+}
+
+.btn-box_box {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .btn-cancel{
+  color:black;
+} */
+
+/* --------------detail-main-------------- */
+.title-box input:focus {
+	outline: none;
+}
+
+.meta-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.detail-regdate, .writer-name, .hit, .comment, .love {
+	/* border: 1px solid black; */
+	display: inline-block;
+	/* box-sizing: border-box; */
+	background: url(../../../images/bg-title-sp.png) no-repeat left center;
+	padding-left: 7px;
+}
+
+.detail-regdate, .hit {
+	padding: 0px;
+	background: none;
+}
+
+.love-img {
+	color: red;
+}
+
+.btn-box .love-btn {
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.2em;
+}
+
+.btn-box .love-btn .love-img {
+	/* background: none; */
+	/* border: 1px solid darkgrey; */
+	color: red;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.btn-box .love-btn:hover {
+	/* background: red; */
+	background: none;
+	/* color: white; */
+}
+
+/* ************ 등록자 detail-comment******************  */
+.comment-box_box textarea {
+	width: 100%;
+	height: 80px;
+	resize: none;
+	margin-top: 10px;
+}
+
+.comment-write-box {
+	display: flex;
+	padding: 10px 0px;
+	border-bottom: 1px solid lightgray;
+}
+
+.comment-write-box.second{
+	background-color:#F8F9FA;
+}
+
+.comment-write-box .comment-likes {
+	margin: auto;
+	align-items: center;
+}
+
+.comment-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.comment-reg-item:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.comment-reg-item.margin-left {
+	margin-left: 10px;
+}
+
+.comment-reg-btn, .comment-cancel-btn {
+	cursor: pointer;
+}
+
+.comment-form{
+	background-color:#F8F9FA;
+}
+
+.comment-form .comment-btn-list {
+	display: flex;
+}
+
+.comment-write-count {
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.comment-write-num{
+	font-weight: bold;
+}
+
+/* ************* detail-comment ***************** */
+#comment {
+	background-color: white;
+}
+
+.comment-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.comment-header-title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.comment-header-cnt {
+	opacity: 0.7;
+}
+
+.comment-header-refresh {
+	color: #7B858E;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.comment-header-refresh:hover {
+	font-weight: bold;
+}
+
+.comment-sort {
+	margin-top: 20px;
+	border-bottom: 2px solid #46CFA7;
+	display: flex;
+	justify-content: space-between;
+}
+
+.comment-sort-list {
+	display: flex;
+}
+
+.comment-sort-write {
+	display: flex;
+	align-items: flex-end;
+	color: rgba(50, 129, 168, 0.993);
+	font-size: 13px;
+	padding-bottom: 5px;
+}
+
+.comment-sort-write-btn {
+	cursor: pointer;
+}
+
+.comment-sort-write-btn:hover {
+	font-weight: bold;
+}
+
+.comment-write-txt {
+	margin-left: 5px;
+}
+
+.comment-sort-item {
+	padding: 15px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.comment-sort-item:hover {
+	background-color: antiquewhite;
+}
+
+.comment-box {
+	display: flex;
+	padding: 10px 0px;
+	border-bottom: 1px solid lightgray;
+	/* background-color: yellow;   */
+}
+
+.comment-box .comment-likes {
+	/* border: 1px solid blue; */
+	/* display: flex; */
+	margin: auto;
+	align-items: center;
+	/* display: flex; */
+}
+
+.likes-btn {
+	/* border: 1px solid blue; */
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 1.5em;
+}
+
+.likes {
+	color: red;
+	cursor: pointer;
+	/* background-color: red; */
+	/* border: 1px solid black; */
+}
+
+.likes-cnt {
+	font-size: 0.8em;
+	/* border: 1px solid black; */
+	font-weight: bold;
+	text-align: center;
+}
+
+.likes.d-none{
+	display:none;
+}
+
+.comment-box_box {
+	flex-grow: 1;
+	/* border: 1px solid black; */
+	/* display: inline-block; */
+	margin-left: 15px;
+}
+
+.comment-box_box .comment-meta-info a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.comment-box .comment-meta-info {
+	/* border: 1px solid blue; */
+	display: flex;
+	/* align-items: center; */
+	/* padding: 7px; */
+	position: relative;
+}
+
+.comment-box .comment-meta-info i {
+	color: darkgray;
+}
+
+
+.update .dots-box {
+	text-align: end;
+}
+
+.update .dots{
+	cursor:pointer;
+}
+
+.update .update-box {
+	border: 1px solid darkgray;
+	
+}
+
+.update-box .update-edit {
+	border-bottom: 1px solid darkgray;
+	padding: 7px 0px;
+	box-sizing: border-box;
+	font-size: 12px;
+	
+}
+
+.update-box .update-delete {
+	padding: 7px 0px;
+	font-size: 12px;
+	box-sizing: border-box;
+		
+}
+
+.comment-meta-info .update {
+	/* border: 1px solid black; */
+	position: absolute;
+	right: 1.5em;
+}
+
+.update-box span {
+	cursor: pointer;
+}
+
+#comment .regdate {
+	/* border: 1px solid black; */
+	background: url(../../../images/bg-title-sp.png) no-repeat left center;
+	padding-left: 7px;
+	margin-left: 10px;
+	color: #9094BD;
+}
+
+.comment-box .comment-content {
+	/* border: 1px solid black; */
+	/* display: inline-block; */
+	margin-top: 10px;
+	line-height: 20px;
+	white-space: pre-line;
+}
+
+.comment-btn-list {
+	display: flex;
+	margin-top: 10px;
+}
+
+.comment-item-btn {
+	cursor: pointer;
+	/* border: 1px solid black; */
+	color: rgba(50, 129, 168, 0.993);
+	/* background-color: yellow; */
+}
+
+.comment-item-btn:hover {
+	font-weight: bold;
+}
+
+.comment-write-btn {
+	margin-left: 10px;
+	/* border: 1px solid black; */
+}
+
+
+
+.comment-item i {
+	/* border: 1px solid black; */
+	margin-right: 5px;
+	color: rgba(158, 209, 235, 0.993);
+}
+
+.comment-item i:hover {
+	font-weight: bold;
+}
+
+
+/* *********** 대댓글 ****************** */
+.comment-write-box.second {
+	padding-left: 36px;
+}
+
+.img-box img {
+	/* border: 1px solid black; */
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.comment-write-box .comment-meta-info{
+	display:flex;
+	position:relative;
+}
+
+.comment-write-box .comment-content{
+	    margin-top: 10px;
+    line-height: 20px;
+    white-space: pre-line;
+}
+
+.comment-write-box .comment-meta-info i{
+	color:darkgray;
+}

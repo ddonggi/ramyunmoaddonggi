@@ -1,0 +1,13 @@
+package com.ramyunmoa.web;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RamyunMoaPrjDonggiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RamyunMoaPrjDonggiApplication.class, args);
+	}
+
+}

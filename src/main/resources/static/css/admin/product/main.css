@@ -1,0 +1,73 @@
+.title {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2.5em;
+	padding: 20px;
+}
+
+.sub {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2.0em;
+	text-align: left;
+}
+
+.notice-review {
+	width: 100%;
+}
+
+.notice-review thead tr:last-child td {
+	width: 12.5%;
+}
+
+tr, td {
+	border: 1px solid #bbbbbb;
+	padding: 10px;
+	height: 20px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notice-review input:hover {
+	opacity: 0.5;
+}
+
+.container {
+	width: 90%;
+	margin: 40px auto;
+}
+
+.container-table {
+	width: 90%;
+	margin: 30px auto 20px auto;
+}
+
+.notice-table {
+	width: 100%;
+	border-top: solid #eeeeee;
+	border-bottom: solid #eeeeee;
+	margin-bottom: 40px;
+}
+
+.notice-table a:hover {
+	text-decoration: underline;
+}
+
+.notice-table>thead>tr>td {
+	font-size: 0.9em;
+	border-top: solid 2px #cccccc;
+	border-bottom: solid 1.5px #bbbbbb;
+	font-weight: bold;
+	width: 25%;
+}
+
+.notice-table tr td {
+	border-bottom: solid 0.5px #dddddd;
+	padding: 10px;
+}
+
+thead {
+	background-color: #dddddd;
+}

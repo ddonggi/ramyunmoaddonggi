@@ -1,0 +1,721 @@
+
+
+@charset "UTF-8";
+
+@import url("../reset.css");
+
+@import url("../font.css");
+
+@import url("../global.css");
+
+@import url("../header.css");
+
+@import url("../footer.css");
+
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'MapoPeacefull', SpeedeeK, Malgun Gothic, '맑은 고딕', Dotum,
+		'돋움', Arial, sans-serif;
+}
+
+/* ---------main.jsp----------- */
+/* ---------슬라이더 영역----------- */
+.slide-size, .img-size {
+	width: 1080px;
+	height: 600px;
+}
+
+.slider-area {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.slides {
+	display: flex;
+	overflow: hidden;
+	height: 100%;
+}
+
+#i1:checked ~ .s1 {
+	margin-left: 0;
+	transition: 1s;
+}
+
+#i2:checked ~ .s1 {
+	margin-left: -100%;
+	transition: 1s;
+}
+
+#i3:checked ~ .s1 {
+	margin-left: -200%;
+	transition: 1s;
+}
+
+.slide-nav {
+	display: flex;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+.bar {
+	width: 15px;
+	height: 15px;
+	border: 2px solid #ffee58;
+	margin: 0px 20px;
+	border-radius: 50%;
+	opacity: 0.7;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.bar:hover {
+	background: #ffee58;
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+input[name="i"] {
+	position: absolute;
+	visibility: hidden;
+}
+/* ---------first 영역 ---------- */
+.first {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: #ffbc0d;
+	position: relative;
+	top: 0px;
+}
+
+.first-rm {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background: #ffbc0d;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.first .click {
+	margin-left: 5px;
+	animation-duration: 0.8s;
+	animation-name: click;
+	animation-iteration-count: infinite;
+	position: relative;
+	margin-left: 10px;
+}
+
+@keyframes click { /* 수정부분 06.10 */ 
+	from { 
+		top:3px;
+	}
+
+	to {
+		bottom: -10px;
+	}
+}
+
+.first i {
+	font-size: 15px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.first a {
+	color: black;
+	font-weight: bold;
+}
+
+/* ---------calc 영역 ---------- */
+.cal-calc {
+	display: flex;
+	justify-content: center;
+	height: 130px;
+	font-size: 30px;
+	align-items: center;
+	background: #292929;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+	width: 1080px;
+	margin: 0px auto;
+}
+
+.cal-calc div {
+	height: 130px;
+	line-height: 130px;
+	position: relative;
+}
+
+.finger {
+	animation-duration: 0.8s;
+	animation-name: finger;
+	animation-iteration-count: infinite;
+	margin: 0px 20px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	font-size: 35px;
+}
+
+@keyframes finger { /* 수정부분 06.10 */ 
+	
+	from { 
+		left:0px;
+	}
+
+	to {
+		left: 15px;
+	}
+}
+
+.cal-calc-btn {
+	width: 160px;
+	height: 80px;
+	border-radius: 10px;
+	transition: 0.3s;
+	font-weight: bold;
+	border: 2px solid #42a5f5;
+	background: white;
+	font-size: 20px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.cal-calc-btn:hover {
+	border-radius: 50%;
+	background: #42a5f5;
+	color: white;
+	cursor: pointer;
+}
+
+/* ---------main 영역----------- */
+.main-area {
+	font-family: 'S-CoreDream-3Light', SpeedeeK, Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', Arial, sans-serif;
+}
+
+.inner {
+	width: 1080px;
+	margin: 0px auto;
+}
+
+.tit-main {
+	font-size: 35px;
+	font-weight: 800;
+	height: 100px;
+	line-height: 100px;
+}
+
+.whats-new {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.whats-list {
+	width: 505px;
+	height: 420px;
+	margin-bottom: 15px;
+	background-color: #eeeeee;
+	box-shadow: 5px 5px 2px #eeeeee;
+}
+
+.whats-tit p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.whats-list li {
+	border-bottom: 2px solid #42a5f5;
+	padding: 7px;
+	height: 25px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-right: 50px;
+	white-space: nowrap;
+}
+
+/*200614수정 취합  */
+/* a {
+	color: black;
+	text-decoration: none;
+	font-family: 'MapoPeacefull', SpeedeeK, Malgun Gothic, '맑은 고딕', Dotum,
+		'돋움', Arial, sans-serif;
+}
+
+---------main.jsp-----------
+---------슬라이더 영역-----------
+.slide-size, .img-size {
+	width: 1080px;
+	height: 600px;
+}
+
+.slider-area {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.slides {
+	display: flex;
+	overflow: hidden;
+	height: 100%;
+}
+
+#i1:checked ~ .s1 {
+	margin-left: 0;
+	transition: 1s;
+}
+
+#i2:checked ~ .s1 {
+	margin-left: -100%;
+	transition: 1s;
+}
+
+#i3:checked ~ .s1 {
+	margin-left: -200%;
+	transition: 1s;
+}
+
+.slide-nav {
+	display: flex;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+.bar {
+	width: 15px;
+	height: 15px;
+	border: 2px solid #ffee58;
+	margin: 0px 20px;
+	border-radius: 50%;
+	opacity: 0.7;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.bar:hover {
+	background: #ffee58;
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+input[name="i"] {
+	position: absolute;
+	visibility: hidden;
+}
+---------first 영역 ----------
+.first {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: #ffbc0d;
+	position: relative;
+	top: 0px;
+}
+
+.first-rm {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background: #ffbc0d;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.first .click {
+	margin-left: 5px;
+	animation-duration: 0.8s;
+	animation-name: click;
+	animation-iteration-count: infinite;
+	position: relative;
+	margin-left: 10px;
+}
+
+@keyframes click { 수정부분 06.10 
+	from { 
+		top:3px;
+	}
+
+	to {
+		bottom: -10px;
+	}
+}
+
+.first i {
+	font-size: 15px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.first a {
+	color: black;
+	font-weight: bold;
+}
+
+---------calc 영역 ----------
+.cal-calc {
+	display: flex;
+	justify-content: center;
+	height: 130px;
+	font-size: 30px;
+	align-items: center;
+	background: #292929;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+	width: 1080px;
+	margin: 0px auto;
+}
+
+.cal-calc div {
+	height: 130px;
+	line-height: 130px;
+	position: relative;
+}
+
+.finger {
+	animation-duration: 0.8s;
+	animation-name: finger;
+	animation-iteration-count: infinite;
+	margin: 0px 20px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	font-size: 35px;
+}
+
+@keyframes finger { 수정부분 06.10 
+	
+	from { 
+		left:0px;
+	}
+
+	to {
+		left: 15px;
+	}
+}
+
+.cal-calc-btn {
+	width: 160px;
+	height: 80px;
+	border-radius: 10px;
+	transition: 0.3s;
+	font-weight: bold;
+	border: 2px solid #42a5f5;
+	background: white;
+	font-size: 20px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.cal-calc-btn:hover {
+	border-radius: 50%;
+	background: #42a5f5;
+	color: white;
+	cursor: pointer;
+}
+
+---------main 영역-----------
+.main-area {
+	padding: 60px 0px 30px 0px;
+	font-family: 'S-CoreDream-3Light', SpeedeeK, Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', Arial, sans-serif;
+}
+
+.inner {
+	width: 1080px;
+	margin: 0px auto;
+}
+
+.tit-main {
+	font-size: 35px;
+	font-weight: 800;
+	margin: 0px 0px 35px 35px;
+}
+
+.whats-new {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.whats-list {
+	width: 505px;
+	height: 420px;
+	margin: 0px 0px 35px 35px;
+	background-color: #eeeeee;
+	box-shadow: 5px 5px 2px #eeeeee;
+}
+
+.whats-tit p {
+	margin: 0px 0px 5px 35px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.whats-list li {
+	border-bottom: 2px solid #42a5f5;
+	margin-bottom: 15px;
+	height: 25px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-right: 50px;
+	white-space: nowrap;
+} */
+
+/* @charset "UTF-8";
+
+@import url("../reset.css");
+
+@import url("../font.css");
+
+@import url("../global.css");
+
+@import url("../header.css");
+
+@import url("../footer.css");
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'MapoPeacefull', SpeedeeK, Malgun Gothic, '맑은 고딕', Dotum,
+		'돋움', Arial, sans-serif;
+}
+
+---------main.jsp-----------
+---------슬라이더 영역-----------
+.slide-size, .img-size {
+	width: 1080px;
+	height: 600px;
+}
+
+.slider-area {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.slides {
+	display: flex;
+	overflow: hidden;
+	height: 100%;
+}
+
+#i1:checked ~ .s1 {
+	margin-left: 0;
+	transition: 1s;
+}
+
+#i2:checked ~ .s1 {
+	margin-left: -100%;
+	transition: 1s;
+}
+
+#i3:checked ~ .s1 {
+	margin-left: -200%;
+	transition: 1s;
+}
+
+.slide-nav {
+	display: flex;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+.bar {
+	width: 15px;
+	height: 15px;
+	border: 2px solid #ffee58;
+	margin: 0px 20px;
+	border-radius: 50%;
+	opacity: 0.7;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.bar:hover {
+	background: #ffee58;
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+input[name="i"] {
+	position: absolute;
+	visibility: hidden;
+}
+---------first 영역 ----------
+.first {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: #ffbc0d;
+	position: relative;
+	top: 0px;
+}
+
+.first-rm {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background: #ffbc0d;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.first .click {
+	margin-left: 5px;
+	animation-duration: 0.8s;
+	animation-name: click;
+	animation-iteration-count: infinite;
+	position: relative;
+	margin-left: 10px;
+}
+
+@
+keyframes click {from { top:3px;
+	
+}
+
+to {
+	bottom: -10px;
+}
+
+}
+.first i {
+	font-size: 15px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.first a {
+	color: black;
+	font-weight: bold;
+}
+
+---------calc 영역 ----------
+.cal-calc {
+	display: flex;
+	justify-content: center;
+	height: 130px;
+	font-size: 30px;
+	align-items: center;
+	background: #292929;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+	width: 1080px;
+	margin: 0px auto;
+}
+
+.cal-calc div {
+	height: 130px;
+	line-height: 130px;
+	position: relative;
+}
+
+.finger {
+	animation-duration: 0.8s;
+	animation-name: finger;
+	animation-iteration-count: infinite;
+	margin: 0px 20px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	font-size: 35px;
+}
+
+@
+keyframes finger {from { left:0px;
+	
+}
+
+to {
+	left: 15px;
+}
+
+}
+.cal-calc-btn {
+	width: 160px;
+	height: 80px;
+	border-radius: 10px;
+	transition: 0.3s;
+	font-weight: bold;
+	border: 2px solid #42a5f5;
+	background: white;
+	font-size: 20px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.cal-calc-btn:hover {
+	border-radius: 50%;
+	background: #42a5f5;
+	color: white;
+	cursor: pointer;
+}
+
+---------main 영역-----------
+.main-area {
+	padding: 60px 0px 30px 0px;
+	font-family: 'S-CoreDream-3Light', SpeedeeK, Malgun Gothic, '맑은 고딕',
+		Dotum, '돋움', Arial, sans-serif;
+}
+
+.inner {
+	width: 1080px;
+	margin: 0px auto;
+}
+
+.tit-main {
+	font-size: 35px;
+	font-weight: 800;
+	margin: 0px 0px 35px 35px;
+}
+
+.whats-new {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.whats-list {
+	width: 505px;
+	height: 420px;
+	margin: 0px 0px 35px 35px;
+	background-color: #eeeeee;
+	box-shadow: 5px 5px 2px #eeeeee;
+}
+
+.whats-tit p {
+	margin: 0px 0px 5px 35px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.whats-list li {
+	border-bottom: 2px solid #42a5f5;
+	margin-bottom: 15px;
+	height: 25px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-right: 50px;
+	white-space: nowrap;
+} */

@@ -1,0 +1,31 @@
+
+body{
+    position: relative;
+    padding-bottom: 300px;
+    background-color:#f0f0f0;
+}
+
+.flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+    
+}
+
+.btn-reset{
+    border: none;
+    background: none;
+    outline: none;    
+}
+
+html {
+    background-color: #EBEEF1;
+}
+
+
+.btn-default{
+    outline: 0px;
+    border:0px;
+}

@@ -1,0 +1,144 @@
+.contents {
+    margin: 50px 0px;
+}
+
+.current {
+    color: #c4001d;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 30px;
+}
+
+table {
+    width: 85%;
+}
+
+.item-table .space {
+    border-top: solid;
+    border-left: white solid;
+    border-right: white solid;
+    background-color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.search div {
+    padding: 15px;
+}
+
+.search>div:last-child {
+    margin-left: auto;
+}
+
+/* table */
+
+.item-table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.item-table img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px 20px;
+}
+
+.item-table td {
+    border: solid 0.5px black;
+    padding: 10px;
+}
+
+.item-table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.item-table input[type="text"] {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.item-table .regImg {
+    width: 75px;
+    height: 75px;
+    border: solid 1px;
+    margin: 20px 10px;
+}
+
+.item-table .input-title {
+    width: 150px;
+}
+
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.pager ul {
+    display: flex;
+    padding: 5px;
+}
+
+.pager ul>li {
+    padding: 5px;
+}
+
+.pager ul>li>a {
+    padding: 0px 10px;
+    font-size: 1.5em;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+
+tbody>tr:nth-child(6n-5) {
+    border-top: solid;
+}
+
+input[type="submit"] {
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.list {
+    margin-right: 100px
+}
+
+.list div {
+    padding: 2.5px;
+}
+
+.list,
+.three-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    background-color: #eeeeee;
+}
+
+label {
+    padding-left: 25px;
+}
+
+thead {
+    background-color: #eeeeee;
+}

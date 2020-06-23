@@ -1,0 +1,125 @@
+.title {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2.5em;
+	padding-top: 20px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type="button"] {
+	margin: 2.5px;
+	padding: 0px 5px;
+}
+
+select {
+	padding: 0.5px 2px;
+}
+
+.current {
+	color: #c4001d;
+	font-weight: bold;
+}
+
+.notice-review input:hover {
+	opacity: 0.5;
+}
+
+.notice-review {
+	width: 100%;
+	font-size: 0.9em;
+}
+
+.container {
+	width: 90%;
+	margin: 40px auto;
+}
+
+.top-btn {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.container-table {
+	width: 90%;
+	margin: 30px auto 20px auto;
+}
+
+.notice-table {
+	width: 100%;
+}
+
+.notice-table a:hover {
+	text-decoration: underline;
+}
+
+.notice-table>thead>tr>td {
+	font-size: 0.9em;
+	border-top: solid 2px #cccccc;
+	border-bottom: solid 1.5px #bbbbbb;
+	font-weight: bold;
+}
+
+.notice-table>thead>tr>td:nth-child(1),
+td:nth-child(6),
+td:nth-child(7) {
+	width: 5%;
+}
+
+.notice-table>thead>tr>td:nth-child(2) {
+	width: 50%;
+}
+
+.notice-table>thead>tr>td:nth-child(3),
+td:nth-child(5) {
+	width: 10%;
+}
+
+.notice-table>thead>tr>td:nth-child(4) {
+	width: 15%;
+}
+
+.notice-table tr td {
+	border-bottom: solid 0.5px #dddddd;
+	padding: 10px;
+}
+
+.bottom-btn {
+	padding: 10px;
+}
+
+.list div {
+	padding: 2.5px;
+}
+
+.list,
+.three-btn {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+
+.pager {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.pager ul {
+	padding: 5px;
+}
+
+.pager ul>li {
+	padding: 5px;
+}
+
+.pager ul>li>a {
+	padding: 0px 10px;
+	font-size: 1.5em;
+	font-family: 'Black Han Sans', sans-serif;
+}

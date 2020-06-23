@@ -1,0 +1,83 @@
+@import url("../../reset.css");
+@import url("../../font.css");
+@import url("../../global.css");
+@import url("../../color.css");
+@import url("../../header.css");
+@import url("../../footer.css");
+@import url("review-board-style.css");
+/* @import url("review-detail.css");
+@import url("review-list.css");
+@import url("review-reg.css"); */
+
+/* --------------리뷰게시판 layout ----------------------- */
+
+
+/* .rm-menu-top {
+    display: flex;
+    align-items: center;
+    background: #8b0000;
+    color: white;
+    font-size: 15px;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+.rm-header li:hover {
+    cursor: pointer;
+}
+
+.rm-menu-top li {
+    padding: 5px 10px;
+    background: #fe4e46;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.rm-menu-top li:first-child {
+    margin-right: auto;
+    font-size: 23px;
+    background-color: #c4001d;
+    border-radius: 0px;
+}
+
+.rm-menu-bottom {
+    display: flex;
+    background: #c4001d;
+    font-size: 15px;
+}
+
+.rm-menu-bottom li {
+    padding: 10px 10px
+}
+
+.rm-menu-bottom li:hover {
+    border-radius: 10px;
+    background: #fe4e46;
+}
+ */
+/* ******* review-list-main, review-detail-main ********* */
+html {
+    background-color: #EBEEF1;
+}
+
+body {
+    
+}
+
+#main {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#comment{
+    box-sizing: border-box;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #DEE1E4;
+    margin-top: 50px;
+    padding: 15px;
+}
+

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.hidden {
+	display: none;
+}
+
+.current {
+    color: #c4001d;
+    font-weight: bold;
+}
+
+a {
+	color: black;
+	direction: none;
+}
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.container {
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	display: flex;
+}
+
+.pager {
+	margin-top: auto;
+	;
+}
+
+/* ----------헤더 top부분----------- */
+.top-header {
+	display: flex;
+	margin-top: 5px;
+	font-size: 20px;
+	background-color: #292929;
+	color: white;
+	align-items: center;
+	padding: 40px;
+}
+
+.top-header input,
+select {
+	font-size: 14px;
+}
+
+.top-home {
+	margin-left: 50px;
+	font-size: 2em;
+	font-family: 'Righteous', cursive;
+}
+
+.top-header-list {
+	margin-left: auto;
+	display: flex;
+	font-size: 1em;
+}
+
+.top-header-list li {
+	font-size: 15px;
+	padding: 30px;
+}
+
+.top-header-list a {
+	color: white;
+}
+
+/* ----------헤더 bottom부분----------- */
+.bottom-header {
+	background-color: #ffbc0d;
+	margin: 3px 0px 3.5px 0px;
+	padding: 20px;
+}
+
+.bottom-header a {
+	color: white;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.admin-menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.admin-menu li {
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+}
+
+li:hover {
+	opacity: 0.5;
+}
+
+/* -----------메인 부분----------- */
+.main {
+	/* font-size: 30px; */
+	display: flex;
+	text-align: center;
+}
+
+/* -----------콘텐츠 부분----------- */
+.contents {
+	/* background: cornflowerblue; */
+	width: 85%;
+}
+
+/* ----------사이드메뉴부분----------- */
+.aside-menu {
+	width: 15%;
+	/* height: 100%; */
+	border-right: 2px solid black;
+}
+
+.aside-menu i {
+	color: #42a5f5;
+	padding: 0 10px;
+}
+
+.aside-menu h2 {
+	font-size: 20px;
+	background: #42a5f5;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.aside-menu h2 a {
+	color: white;
+}
+
+.menu-tit {
+	font-size: 20px;
+	border-bottom: 1px dotted #979797;
+	margin-bottom: 5px;
+	padding: 10px 0px;
+}
+
+.sub-menu {
+	width: 200px;
+}
+
+.sub-menu li {
+	border-bottom: 1px dotted #979797;
+	font-size: 15px;
+	padding: 5px;
+	text-align: left;
+}
+
+/* -----------푸터 부분----------- */
+.footer {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 100%;
+	width: 100%;
+	background: #8b8c9b;
+	background-color: #292929;
+	color: white;
+	padding: 40px 0px;
+}
+
+.footer>div {
+	width: 95%;
+	margin: 0 auto;
+}

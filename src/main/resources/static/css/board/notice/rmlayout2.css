@@ -1,0 +1,346 @@
+@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'S-CoreDream-3Light', SpeedeeK, Malgun Gothic,'¸¼Àº °íµñ', 
+    Dotum,'µ¸¿ò', Arial, sans-serif;
+}   
+
+.text-highlight{
+    color: #c4001d;
+}
+
+.text-indent{
+    text-indent: 15px;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.h30{
+    height: 30px;
+}
+
+.w60{
+    width: 60px;
+}
+
+.w120{
+    width: 120px;
+}
+
+.w100{
+    width: 100px;
+}
+
+.w140{
+    width: 140px;
+}
+
+.w160{
+    width: 160px;
+}
+
+.w200{
+    width: 200px;
+}
+
+.w436{
+    width: 436px;
+}
+
+.w460{
+    width: 460px;
+}
+
+.margin-top-21{
+    margin-top: 21px;
+}
+
+.padding-right-10{
+    padding-right: 10px;
+}
+
+.border-bottom-1px-double-black{
+    border-bottom: 5px double black;
+}
+
+.border-bottom-1px-solid-gray{
+    border-bottom: 1px solid gray;
+}
+
+.flex {
+    display: flex;
+}
+
+/******************************************************************/
+
+/* ---------Çì´õ ¿µ¿ª----------- */
+.header {
+    height: 141px;
+    border-bottom: 1px solid #f8c137;
+    background: #fff;
+    line-height: 140px;
+    font-weight: 900;
+    font-size: 20px;
+}
+/* ---------Çì´õ ¹Ú½º----------- */
+.box {
+    width: 1080px;
+    margin: 0px auto;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar li{
+    height: 90px;
+    margin: 0px 6px;
+}
+
+.navbar-logo {
+    font-size: 35px;
+}
+/* ---------¸Þ´º ¸®½ºÆ®----------- */
+.navbar-menu li{
+    margin: 0px 20px;
+}
+
+.navbar-menu li:hover{
+    border-bottom: 2px solid #fdd835;    
+}
+
+.navbar-menu li:first-child {
+    margin-left: 130px;
+}
+/* ---------¸â¹ö ¿µ¿ª----------- */
+.navbar-member a {
+    border-radius: 16px;
+    padding: 12px 20px;
+    font-weight: normal;
+}
+
+.member-first {
+    background: #fdd835;
+    font-size: 13px;
+}
+
+.member-second {
+    background: #1976d2;
+    font-size: 13px;
+}
+
+/********************************************************************/
+
+/*¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é <list> ¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é*/
+#body{
+    display: flex;
+    min-height: 500px;
+    --justify-content: center;
+}
+
+.content-container{
+    display: flex;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside{
+    width: 300px;
+    display: flex;
+    justify-self: left;
+}
+
+.main{
+    display: block;
+    max-width: 780px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.customer-service{
+    border: 2px solid #e5e5e5;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px 10px 0px; 
+}
+
+.list {
+    width: 780px;
+    height: inherit;
+    border: 2px solid #ff0000;
+    --margin-left: auto;
+    --margin-right: auto;
+}
+
+    .list .table{
+        table-layout: fixed;
+        width: 100%;
+        --background-color: yellow ;
+    }
+
+        .list .table .col-num{
+            width: 60px;
+        }
+
+        .list .table .col-text{
+            width: 100px;
+        }
+
+        .list .table thead tr{
+            border-bottom: 5px double black;
+        }
+        
+        .list .table td{
+            text-align: center;
+            border-bottom: 1px solid #444444;
+        }
+
+        .list .table .title{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            text-align: left;
+            text-indent: 15px;
+        }
+
+        .list .table .files{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+.write{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+    .page ul{
+        display: flex;
+    }
+
+        .page ul li{
+            text-align: center;
+            width: 15px;
+            height: 15px;
+        }
+/*¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è <list> ¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è*/
+
+/*¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é <reg> ¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é*/
+.admin-service{
+    border: 2px solid #e5e5e5;
+}
+
+.title-input{
+    width: 376px; /* 380px - 4px */
+}
+
+.post{
+    display: flex;
+    width: 780px;
+    height: 500px;
+    --justify-content: center;
+}
+
+    .post .post-table{
+        table-layout: fixed;
+        --width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+.content-input{
+    width: 498px; /* 500px - 2px */
+    height: 434px; /* 500px - 66px */
+}
+
+.post-btn{
+    margin-left: 585px;
+}
+
+/*¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è <reg> ¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è¡è*/
+
+/*¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é <detail> ¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é*/
+
+.notice-detail-table{
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notice-detail-table .content{
+    height: 350px;
+    vertical-align: text-top;
+}
+
+.go-list{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.notice-detail-sub-table{
+    table-layout: fixed;
+    width: 520px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .notice-detail-sub-table tr>td:last-child{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+/*¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é <footer> ¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é¡é*/
+
+.footer {
+    background: #292929;
+    display: flex;
+}
+
+.footer .box {
+    background: #292929;
+    padding: 45px 0px 55px 0px;
+    font-size: 15px;
+}
+
+.foot-list {
+    margin-right: 80px;
+}
+
+.foot-info {
+    color: #707070;
+    font-weight: 800;
+}
+
+.footer a {
+    font-family: SpeedeeK, Malgun Gothic,'¸¼Àº °íµñ', 
+    Dotum,'µ¸¿ò', Arial, sans-serif;
+    color: white;
+}
+
+.footer .privacy {
+    color: #ffff00;
+}
+
+.foot-sns {
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+}

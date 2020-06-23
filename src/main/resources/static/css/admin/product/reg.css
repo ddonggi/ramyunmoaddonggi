@@ -1,0 +1,82 @@
+.contents {
+    margin: 50px 0px;
+}
+
+.current {
+	color: #c4001d;
+	font-weight: bold;
+}
+
+.title {
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 30px;
+}
+
+/* table */
+
+select {
+    text-align-last: center;
+    font-size: 1em;
+    padding: 10px 5px;
+}
+
+.item-table {
+    margin: 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.item-table td {
+    border: solid 0.5px #bbbbbb;
+    padding: 10px 5px;
+}
+
+.item-table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.item-table input[type="text"] {
+    width: 75px;
+    height: 35px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.img-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item-table .regImg {
+    width: 90%;
+    height: 200px;
+}
+
+.item-table .regImg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-table .input-title {
+    width: 150px;
+}
+
+
+thead {
+    background-color: #eeeeee;
+}
+
+input[type="file"] {
+    padding: 10px
+}
+
+.bold {
+    background-color: #eeeeee;
+    font-weight: bold;
+}

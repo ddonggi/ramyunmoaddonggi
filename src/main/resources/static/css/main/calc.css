@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+select, button {
+    cursor: pointer;
+}
+
+#calc {
+    margin: 100px auto;
+    width: 450px;    
+    height: 500px;
+    background: #9be7ff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px;
+}
+
+.total-kcal {
+    width: 450px;
+    height: 50px;
+    line-height: 50px;
+    background: #1b1b1b;
+    text-align: center;
+    opacity: 0.8;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.total-kcal label {
+    height: 25px;
+    font-size: 23px;
+}
+
+.total-kcal input {
+    vertical-align: middle;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    cursor: unset;
+}
+.calc-top {
+    margin: 10px 0px;
+}
+
+.calc-top button {
+    vertical-align: middle;
+    width: 70px;
+    outline: none;
+    height: 30px;
+    background: #64b5f6;
+    color: white;
+}
+
+.calculation-btn {
+    position: absolute;
+    bottom: 0px;
+}
+
+.calculation-btn button {
+    width: 200px;
+    height: 30px;
+    background: #64b5f6;
+    color: white;
+}

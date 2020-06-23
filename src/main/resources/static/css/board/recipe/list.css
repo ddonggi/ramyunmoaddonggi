@@ -1,0 +1,233 @@
+/* ----------------리뷰게시판 목록----------------------- */
+
+/* ******* list.jsp sub-header ********* */
+
+/* #main {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+
+} */
+#main .sub-header {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    padding: 10px;
+  }
+    
+    .sub-header-title{
+      /* background-color: rgb(236, 159, 159); */
+      text-align:  center;
+      /* font-family: 'Black Han Sans', sans-serif; */
+      /* font-weight: 700; */
+      font-style: italic;
+      font-size: 2rem;
+    }
+  
+   
+  
+  #main .sub-link {
+    /* flex-grow: 1; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+  }
+  
+  
+    #main .sub-link-list {
+      display: flex;
+      flex-grow: 1;
+      /* border: 1px solid black; */
+      justify-content: space-around;
+    }
+  
+      #main .sub-link-item {
+        /* border: 1px solid black; */
+        display: inline-block;
+        /* align-items: space-between; */
+        /* justify-content: space-between; */
+   
+      }
+  
+      .fa-fire-alt{
+        color: red;
+      }
+  
+      .fa-sun{
+        color: greenyellow;
+      }
+  
+      .fa-crown{
+        color: gold;
+        font-weight: bold;
+        /* font-size: 1.2em; */
+      }
+  
+      .fa-filter{
+        color: rgb(121, 121, 150);
+      }
+  
+  #main .sub-link-search input[type="submit"]{
+     outline: 0px;
+    border: 0px;
+    width: 33px;
+    /* height: 23px;  */
+    /* background-size: 30px; */
+  
+    background:  url("../../../images/img.png") no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    cursor: pointer;
+  }
+  
+
+  /* ******** list.jsp review-board **************** */
+ 
+#main .review-board {
+    background-color: white;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+  }
+  
+    .write-btn {
+      /* display: inline-block; */
+      /* border: 1px solid black; */
+      text-align: end;
+      font-size: 25px;
+      background-color: #EBEEF1
+    }
+  
+      .fa-edit{
+        
+        color: green;
+      }
+  
+    .review-list-box {
+      display: flex;
+      border-bottom: 1px solid #979797;
+      padding: 8px 0px;
+    }
+  
+      .review-list-box .review-list-box_group{
+        width: 220px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:1.2em;
+      }
+  
+        .review-list-box_group a{
+          font-size: 0.8em;
+          color: black;
+        }
+  
+      .review-list-box .review-list-box_vote{
+        margin-top: auto;
+        margin-bottom: auto;
+  /*       margin-left:10px; */
+        text-align: center;
+  /*       width: 70px; */
+      }
+      
+      .review-list-box_vote i{
+      	    color: gold;
+    font-weight: bold;
+    font-size: 1.2em;
+      }
+      
+      .vote-cnt{
+      opacity: 0.7;
+    font-weight: bold;
+      }
+  .review-list-box_content{
+  /*   flex-grow: 1; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+  }
+  
+  .review-title{
+  	    font-weight: bold;
+    color: black;
+  }
+  
+  .review-comment{
+  	color:darkgray;
+  }
+  
+  .review-list-box-meta{
+  color:darkcyan;
+  }
+  
+    .review-list-box_title{
+      width: 450px;
+      display: inline-block;
+      /*   	margin-left:30px;   */
+      
+    }   
+    
+   	.review-list-box_title .span-title{
+   	white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   	}
+   
+  
+      .review-list-box-meta_regdate {
+          display: inline-block;
+      }
+  
+      .review-list-box-meta_author {
+        display: inline-block;
+        background: url(../../../images/bg-title-sp.png) no-repeat left center;
+        padding-left: 7px;
+      }
+
+/* -------------pager(페이저)----------- */
+
+.indexer-box{
+	/* border:1px solid black; */
+	margin-top: 20px;
+	text-align: end;
+	opacity: 0.5;
+}
+
+
+.pager-box{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.pager{
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.pager-item{
+  display: inline-block;
+
+  /* border: 1px solid blue; */
+}
+
+.pager-num{
+  color: black;
+}
+
+.pager-num.orange{
+	color:orange;
+}
+
+.pager-num:hover,.prev:hover,.next:hover{
+  text-decoration: none;
+  color: darkgray;
+  cursor: pointer;
+}
+
+.next,.prev{
+	color:black;
+}

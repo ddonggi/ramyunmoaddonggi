@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'S-CoreDream-3Light';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+/*-------���� ����------*/
+
+.terms-body {
+	height: 100%;
+	margin: 0;
+	background: white;
+
+}
+
+.d-none{
+	display: none;
+}
+
+.reg-footer {
+	font-family: 'S-CoreDream-3Light';
+	display: flex;
+	position: absolute;
+	width:100%;
+	bottom:0px;
+}
+
+/*----Terms �̿��� ���� ----*/
+.terms-section {
+	font-family: 'S-CoreDream-3Light', arial, sans-serif;
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+	height: 550px;
+	padding-bottom: 1.9em;
+}
+
+.terms-content {
+	border-collapse: separate;
+	border-spacing: 20px;
+
+}
+	.terms-content>tbody>tr:first-child{
+		font-size: 28px;
+		
+	}
+	.terms-content tbody tr td{
+		margin: 20px;
+	}
+
+	.terms-content tbody tr:nth-child(n+3){
+	 text-align: end;
+	}
+
+.btn-style {
+	border-radius: 13px;
+	border-style: none;
+	padding: 8px 15px;
+	font-weight: bold;
+	background: #ffee58;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.textarea {
+	position: inherit;
+	width: 868px;
+	height: 300px;
+	background: #f0f0f0;
+}
+
+
+/*--------ȸ�������Է� ����---------*/
+#reg-main{
+	margin-top: 3%;
+	display:flex;
+	justify-content: center;
+	
+}
+
+.content-container{
+	width:800px;
+	font-family: 'S-CoreDream-3Light';
+}
+	.content-container input{
+		height: 35px;
+		
+	}
+	
+	.content-container .content-end{
+		text-align: end;
+	}
+	.content-container .content-login{
+		text-align: end;
+	}
+
+.form-row{
+
+}
+
+	.form-row div{
+		margin-top:25px;
+	}
+
+	.form-row .select-email{
+		height:35px;	
+	}
+	
+
+#repwd{
+	width: 200px;
+}
+
+.content-login{
+		margin-top: 25px;
+}
+
+/*-------- �α��� ȭ�� ����--------- */
+
+#login-main{
+	height:100vh;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.login-body{
+		font-family: 'S-CoreDream-3Light';
+}
+
+login-form{
+	display: flex;
+}
+	.form-row tbody tr:nth-child(3) td{
+		margin:0 auto;
+		
+	}

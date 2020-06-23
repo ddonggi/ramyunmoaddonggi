@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&family=Sunflower:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MapoPeacefull'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoPeacefullA.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* font */
+
+.fnt_nanum-pen-script {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.fnt_black-han-sans {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.fnt_sunflower {
+    font-family: 'Sunflower', sans-serif;
+    /* font-weight:bold; */
+}
+
+.fnt_jua {
+    font-family: 'Jua', sans-serif;
+}

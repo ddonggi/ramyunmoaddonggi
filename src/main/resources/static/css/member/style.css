@@ -1,0 +1,118 @@
+@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+.header a {
+    color: black;
+    text-decoration: none;
+    font-family: 'S-CoreDream-3Light', SpeedeeK, Malgun Gothic,'맑은 고딕', 
+    Dotum,'돋움', Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+/* ---------헤더 영역----------- */
+.header {
+    height: 141px;
+    border-bottom: 1px solid #f8c137;
+    background: #fff;
+    line-height: 140px;
+    font-weight: 900;
+    font-size: 20px;
+}
+/* ---------헤더 박스----------- */
+.box {
+    width: 1080px;
+    margin: 0px auto;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar li{
+    height: 90px;
+    margin: 0px 6px;
+}
+
+.navbar-logo {
+    font-size: 35px;
+}
+/* ---------메뉴 리스트----------- */
+.navbar-menu li{
+    margin: 0px 20px;
+}
+
+.navbar-menu li:hover{
+    border-bottom: 2px solid #42a5f5;    
+}
+
+.navbar-menu li:first-child {
+    margin-left: 100px;
+}
+/* ---------멤버 영역----------- */
+.navbar-member a {
+    border-radius: 16px;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+.member-first {
+    background: #ffee58;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.member-second {
+    background: #42a5f5;
+    font-size: 13px;
+}
+/* ---------메인 영역----------- */
+.main {
+    height: 600px;
+    text-align: center;
+    background: #050505;
+}
+
+.main-img {
+    width: 1200px;
+    height: 600px;
+}
+/* ---------notice 영역 ---------- */
+
+/* ---------footer 영역----------- */
+.footer {
+    background: #292929;
+    display: flex;
+}
+
+.footer .box {
+    background: #292929;
+    padding: 45px 0px 55px 0px;
+    font-size: 15px;
+}
+
+.foot-list {
+    margin-right: 80px;
+}
+
+.foot-info {
+    color: #707070;
+    font-weight: 800;
+}
+
+.footer a {
+    font-family: SpeedeeK, Malgun Gothic,'맑은 고딕', 
+    Dotum,'돋움', Arial, sans-serif;
+    color: white;
+}
+
+.footer .privacy {
+    color: #ffff00;
+}
+
+.foot-sns {
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+}
+
+
